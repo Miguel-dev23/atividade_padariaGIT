@@ -118,7 +118,7 @@
   <!-- ===== Cabeçalho ===== -->
   <header>
     <h1>Padaria Três Irmãos</h1>
-    <img src="{{ asset('img/logo-removebg-preview.png') }}" alt="Logo">
+    <img src="{{ asset('img/logo.png') }}" alt="Logo">
     <nav>
       <ul>
         <li><a href="/bakery">Início</a></li>
@@ -137,7 +137,7 @@
         <p>Ao se estabelecerem em Cruzeiro, trouxeram consigo o sabor autêntico da tradição alemã, unindo receitas clássicas ao carinho brasileiro.</p>
         <p>Mais do que uma padaria, somos um espaço de família, cultura e aconchego. Cada fornada é feita com dedicação para oferecer momentos especiais aos nossos clientes.</p>
       </div>
-      <img src="{{ asset('img/nos.png') }}" alt="Fundadores da Padaria Três Irmãos">
+      <img src="{{ asset('img/nós - Copia.png') }}" alt="Fundadores da Padaria Três Irmãos">
     </div>
   </main>
 

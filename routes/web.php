@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Support\Facades\Route;
@@ -13,4 +14,6 @@ Route::get('/bakery', [PrincipalController::class, 'bakery']);
 
 Route::get('/sobre', [PrincipalController::class, 'sobre']);
 
-Route::post('/form', [PrincipalController::class, 'formSubmit']);
+Route::get('/form', [PrincipalController::class, 'form']);
+
+Route::post('/form', [PrincipalController::class, 'enviarForm']);

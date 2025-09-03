@@ -14,12 +14,12 @@ class PrincipalController extends Controller
     {
         return view('sobre');
     }
-
+    public function form()
+    {
+        return view('form');
     }
-    public function formSubmit(Request $request)
-    { 
-        $dados = $request->all();
-
-
+    public function enviarForm(Request $request)
+    {
+        dd($request->post());
     }
 }

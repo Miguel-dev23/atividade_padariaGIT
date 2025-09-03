@@ -10,4 +10,16 @@ class PrincipalController extends Controller
     {
         return view('bakery');
     }
+    public function sobre()
+    {
+        return view('sobre');
+    }
+
+    }
+    public function formSubmit(Request $request)
+    { 
+        $dados = $request->all();
+
+
+    }
 }
